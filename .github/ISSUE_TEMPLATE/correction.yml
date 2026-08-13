@@ -1,0 +1,35 @@
+name: Figure correction
+description: A number in the audit is wrong or out of date
+labels: ["correction"]
+body:
+  - type: input
+    id: row
+    attributes:
+      label: Which row
+      description: Section and row number, for example 1.2 or 6.19
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: What the table currently says
+    validations:
+      required: true
+  - type: input
+    id: correct
+    attributes:
+      label: What it should say, with the unit
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL you read it on
+    validations:
+      required: true
+  - type: input
+    id: fetched
+    attributes:
+      label: Date you fetched that page
+    validations:
+      required: true
