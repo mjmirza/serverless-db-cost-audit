@@ -1,5 +1,7 @@
 # Firebase vs Cloudflare, A Citation First Cost and Scalability Audit
 
+[![OpenRoots ORA 2.3](https://openroots.org/badge/ora.svg)](https://openroots.org/licenses/ora/2.3)
+
 ![Status](https://img.shields.io/badge/status-live%20audit-blue)
 ![Data](https://img.shields.io/badge/prices%20fetched-2026--08--13-brightgreen)
 ![Method](https://img.shields.io/badge/method-adversarially%20verified-orange)
